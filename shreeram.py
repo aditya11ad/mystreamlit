@@ -57,8 +57,8 @@ prediction = model.predict(df)
 
 st.markdown("""
             ***
-### Prediction
-for selected features **Profit**(in USD) will be around: 
+### Predicted Profit
+for selected features (in USD) will be around: 
 """)
 
 st.subheader('')
