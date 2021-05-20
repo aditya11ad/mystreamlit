@@ -66,5 +66,5 @@ st.write(prediction)
 
 st.markdown("""
 ***
-* Follow me on [Aditya Github](https://github.com/aditya11ad)
+* for this code and much more, Follow me on [Aditya Github](https://github.com/aditya11ad)
 """)
