@@ -13,9 +13,6 @@ by using Multiple Linear Regression
 """)
 
 st.sidebar.header('User Input Features')
-st.sidebar.header('User Input Features')
-st.sidebar.header('User Input Features')
-
 
 
 def user_input_features():
@@ -43,7 +40,8 @@ df=pd.get_dummies(df,columns=['State'],drop_first=True)
 df=df[:1]
 
 st.write("""
-         # Startup Profit Prediction 
+         # Aditya app
+         ## Startup Profit Prediction 
 """)
 # Displays the user input features
 st.subheader('User Input features')
