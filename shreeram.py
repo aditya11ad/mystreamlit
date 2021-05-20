@@ -66,5 +66,5 @@ st.write(prediction)
 
 st.markdown("""
 ***
-* [Aditya Github Link](https://github.com/aditya11ad)
+* Follow me on [Aditya Github](https://github.com/aditya11ad)
 """)
