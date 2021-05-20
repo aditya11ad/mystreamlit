@@ -13,6 +13,7 @@ by using Multiple Linear Regression
 """)
 
 st.sidebar.header('User Input Features')
+st.sidebar.header('User Input Features')
 
 
 def user_input_features():
