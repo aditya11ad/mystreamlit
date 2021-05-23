@@ -3,32 +3,8 @@ import pandas as pd
 import pickle
 
 st.set_page_config(layout='wide')
-st.sidebar.write("""
-This app predicts the **Profit** 
-on 
-
-[50 Startups Dataset](https://www.kaggle.com/farhanmd29/50-startups?select=50_Startups.csv)
-
-by using Multiple Linear Regression
-***
-""")
 
 st.sidebar.header('Provide Input Features here:')
-
-expander_bar = st.beta_expander("About")
-expander_bar.markdown("""
-This app predicts the **Profit** 
-on 
-
-[50 Startups Dataset](https://www.kaggle.com/farhanmd29/50-startups?select=50_Startups.csv)
-
-by using Multiple Linear Regression
-***
-* **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn, BeautifulSoup, requests, json, time
-* **Data source:** [CoinMarketCap](http://coinmarketcap.com).
-* **Credit:** Web scraper adapted from the Medium article *[Web Scraping Crypto Prices With Python](https://towardsdatascience.com/web-scraping-crypto-prices-with-python-41072ea5b5bf)* written by [Bryan Feng](https://medium.com/@bryanf).
-""")
-
 
 def user_input_features():
     rd = st.sidebar.slider('R&D (in USD)', 100,6000,2000)
@@ -58,6 +34,15 @@ st.write("""
          # Aditya app
          ## Startup Profit Prediction 
 """)
+expander_bar = st.beta_expander("About")
+expander_bar.markdown("""
+This app predicts the **Profit** on 
+
+[50 Startups Dataset](https://www.kaggle.com/farhanmd29/50-startups?select=50_Startups.csv)
+
+by using Multiple Linear Regression
+""")
+
 # Displays the user input features
 st.subheader('User Input features')
 
