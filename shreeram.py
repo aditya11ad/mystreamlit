@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+st.set_page_config(layout='wide')
 st.sidebar.write("""
 This app predicts the **Profit** 
 on 
